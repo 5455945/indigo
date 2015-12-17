@@ -29,8 +29,8 @@ extern "C" {
 
 
 extern "C" {
-PG_FUNCTION_INFO_V1(bingo_options);
 PGDLLEXPORT Datum bingo_options(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(bingo_options);
 }
 
 

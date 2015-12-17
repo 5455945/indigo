@@ -14,41 +14,41 @@ extern "C" {
 
 
 extern "C" {
-PG_FUNCTION_INFO_V1(smiles);
 PGDLLEXPORT Datum smiles(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(smiles);
 
-PG_FUNCTION_INFO_V1(cansmiles);
 PGDLLEXPORT Datum cansmiles(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(cansmiles);
 
-PG_FUNCTION_INFO_V1(molfile);
 PGDLLEXPORT Datum molfile(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(molfile);
 
-PG_FUNCTION_INFO_V1(cml);
 PGDLLEXPORT Datum cml(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(cml);
 
-PG_FUNCTION_INFO_V1(checkmolecule);
 PGDLLEXPORT Datum checkmolecule(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(checkmolecule);
 
-PG_FUNCTION_INFO_V1(gross);
 PGDLLEXPORT Datum gross(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(gross);
 
-PG_FUNCTION_INFO_V1(getweight);
 PGDLLEXPORT Datum getweight(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(getweight);
 
-PG_FUNCTION_INFO_V1(getmass);
 PGDLLEXPORT Datum getmass(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(getmass);
 
-PG_FUNCTION_INFO_V1(fingerprint);
 PGDLLEXPORT Datum fingerprint(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(fingerprint);
 
-PG_FUNCTION_INFO_V1(compactmolecule);
 PGDLLEXPORT Datum compactmolecule(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(compactmolecule);
 
-PG_FUNCTION_INFO_V1(inchi);
 PGDLLEXPORT Datum inchi(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(inchi);
 
-PG_FUNCTION_INFO_V1(inchikey);
 PGDLLEXPORT Datum inchikey(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(inchikey);
 }
 
 

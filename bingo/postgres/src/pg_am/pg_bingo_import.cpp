@@ -24,16 +24,14 @@ extern "C" {
 
 
 extern "C" {
-
-PG_FUNCTION_INFO_V1(importsdf);
 PGDLLEXPORT Datum importsdf(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(importsdf);
 
-PG_FUNCTION_INFO_V1(importrdf);
 PGDLLEXPORT Datum importrdf(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(importrdf);
 
-PG_FUNCTION_INFO_V1(importsmiles);
 PGDLLEXPORT Datum importsmiles(PG_FUNCTION_ARGS);
-
+PG_FUNCTION_INFO_V1(importsmiles);
 }
 
 using namespace indigo;

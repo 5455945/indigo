@@ -14,20 +14,20 @@ extern "C" {
 
 
 extern "C" {
-PG_FUNCTION_INFO_V1(aam);
 PGDLLEXPORT Datum aam(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(rxnfile);
+PG_FUNCTION_INFO_V1(aam);
 PGDLLEXPORT Datum rxnfile(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(rcml);
+PG_FUNCTION_INFO_V1(rxnfile);
 PGDLLEXPORT Datum rcml(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(checkreaction);
+PG_FUNCTION_INFO_V1(rcml);
 PGDLLEXPORT Datum checkreaction(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(rsmiles);
+PG_FUNCTION_INFO_V1(checkreaction);
 PGDLLEXPORT Datum rsmiles(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(rfingerprint);
+PG_FUNCTION_INFO_V1(rsmiles);
 PGDLLEXPORT Datum rfingerprint(PG_FUNCTION_ARGS);
-PG_FUNCTION_INFO_V1(compactreaction);
+PG_FUNCTION_INFO_V1(rfingerprint);
 PGDLLEXPORT Datum compactreaction(PG_FUNCTION_ARGS);
+PG_FUNCTION_INFO_V1(compactreaction);
 }
 
 Datum aam(PG_FUNCTION_ARGS) {
